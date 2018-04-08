@@ -8,6 +8,7 @@ var uglify = require('gulp-uglify'); //js压缩
 var concat = require('gulp-concat'); //合并文件  
 var imagemin = require('gulp-imagemin'); //图片压缩 
 var Config = require('./gulpfile.config.js');
+var fileinclude = require('gulp-file-include');//公共html
 //======= gulp build 打包资源 ===============
 function prod() {
     /** 
@@ -67,6 +68,7 @@ function prod() {
             , interlaced: true
         })).pipe(gulp.dest(Config.img.dist));
     });
+  
     gulp.task('build', ['html', 'css', 'sass', 'js', 'assets', 'images']);
 }
 module.exports = prod;

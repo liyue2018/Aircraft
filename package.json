@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liyue2018/Aircraft.git"
+    "url": "https://github.com/liyue2018/Aircraft.git"
   },
   "author": "liyue",
   "license": "ISC",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/liyue2018/Aircraft#readme",
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
     "gulp": "^3.9.1",

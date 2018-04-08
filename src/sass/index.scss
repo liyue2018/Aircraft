@@ -1,0 +1,109 @@
+  body{
+  	background:#fafafa;
+  }
+
+  .navbar-index{
+		background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4d5b76), color-stop(1, #6f80a1));
+		background: -ms-linear-gradient(bottom, #4d5b76, #6f80a1);
+		background: -moz-linear-gradient(center bottom, #4d5b76 0%, #6f80a1 100%);
+		background: -o-linear-gradient(bottom, #4d5b76, #6f80a1);
+	}
+	.navbar-default .navbar-brand{
+	   color: #fff;
+	   &:hover{
+		 color:#fff;
+
+	   }
+	}
+	.navbar-default .navbar-nav > li > a{
+		color: #fff;
+		&:hover{
+			color: #fff;
+
+		}
+	}
+	.navbar .nav li.dropdown.open > .dropdown-toggle {
+        background-color: #444;
+        color: #fff;
+   }
+
+   .sidebar-nav{
+   	    width: 240px;
+   	    margin:{
+   	        top: -20px;
+   	   }
+   	    border: {
+            color:#c8c8cb;
+            width: 0 1px;
+            style:solid;
+   	   }
+   	   .popover{
+   	   }
+   	   .nav-list{
+   	   	  &.collapse.in {
+            border-bottom: 1px solid #ccc;
+         } 
+         & li>a{
+         	border-left:3px solid #fff;
+         	padding:.5em 1em;
+             &:hover{
+             	border-left: 3px solid #ccc;
+             }
+         }
+   	   }
+   	   .navbat-header{
+   	   	    display:block;
+   	   	    border-top: 1px solid #fcfcfc;
+   	   	    border-bottom: 1px solid #c8c8cb;
+   	   	    padding: .25em 1em;
+   	   	    background:-webkit-gradient(linear, left bottom, left top, color-stop(0, #efeff0), color-stop(1, #fafafa));
+   	   	    background: -ms-linear-gradient(bottom, #efeff0, #fafafa);
+            background: -moz-linear-gradient(center bottom, #efeff0 0%, #fafafa 100%);
+            background: -o-linear-gradient(bottom, #efeff0, #fafafa);
+            width:100%;
+            line-height:2.5em;
+            color: #444;
+            font-size:1em;
+            .badge{
+            	margin:{
+            	  top:.4em;
+            	  right:-0.6em;
+            }
+            	background:#5bc0de;
+            	border-radius: 4px;
+            	padding:.5em .75em;
+            }
+            .fa-chevron-down, .fa-chevron-up{
+            	margin:{
+            	  top: .8em;
+                }
+              }
+            }
+}
+
+.content{
+	margin:{
+	left: 240px;
+	top: -20px;
+    }
+    padding:10px;
+	background:#fff;
+	.header{
+		border:{
+		   bottom:1px solid #eee;
+	   }
+	}
+	.breadcrumb{
+		background:none;
+	}
+ }
+.stat-item{
+	display:inline-block;
+	margin: 0 6px;
+	i{
+		font-style:normal;
+		margin:{
+		  right: 4px;
+	}
+	}
+}
